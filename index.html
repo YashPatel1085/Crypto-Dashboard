@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Prices Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Crypto Prices Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="crypto-section">
+            <h2>Top 5 Cryptocurrencies</h2>
+            <table id="cryptoTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Symbol</th>
+                        <th>Price (USD)</th>
+                        <th>24h Change (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4">Loading data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crypto Dashboard | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
